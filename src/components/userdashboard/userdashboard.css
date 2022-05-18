@@ -1,0 +1,49 @@
+#userdash {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+ width: 100%;
+ margin-top: 40px;
+ height: calc(100% - (40px + 40px));
+}
+
+#icons {
+ background-color: rgb(192, 204, 192);
+ border: none;
+ border-radius: 30px;
+ width: 8%;
+ height: calc(100% - (40px + 40px));
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding: 10px;
+}
+
+i {
+ margin: 10px;
+ padding: 15px;
+ border-radius: 25px;
+ align-items: center;
+ justify-content: center;
+ background-color: #fff;
+}
+
+#imgdash {
+ width: 58%;
+ padding: 30px;
+}
+
+img {
+ width: 330px;
+}
+
+.fsize {
+ font-size: 50px;
+}
+
+.fsizeh {
+ font-size: 56px;
+}

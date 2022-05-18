@@ -1,0 +1,29 @@
+#links {
+ height: 40px;
+ width: 100%;
+ padding: 10px;
+ background-color: #fff;
+ /* background-color: rgb(178, 217, 178); */
+}
+
+#container {
+ object-fit: contain;
+ margin-bottom: 40px;
+ /* background-color: rgb(191, 197, 194); */
+}
+
+.pages {
+ font-size: medium;
+ font-weight: bold;
+ padding: 10px;
+ text-decoration: none;
+ color: rgb(122, 120, 120);
+}
+
+.pages:hover {
+ color: #fff;
+ border-radius: 3px;
+ margin: 0px;
+ /* background-color: rgb(178, 217, 178); */
+ background-color: rgb(114, 146, 109);
+}
