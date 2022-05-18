@@ -14,7 +14,7 @@ import TrainDashboard from './userdashboardtrain/userdashboard-train';
 function Navigation() {
  return (
   <div id='links'>
-   <Router id='container'>
+   <Router basename="/TravelDreams/" id='container'>
 
     <div>
      <Link to="/" className='pages'>Home</Link>
